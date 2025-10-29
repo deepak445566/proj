@@ -3,7 +3,7 @@ import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
 import Profile from './components/Profile/Profile';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://proj-5lax.onrender.com/api';
 
 function App() {
   const [currentView, setCurrentView] = useState('login');

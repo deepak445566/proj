@@ -6,7 +6,7 @@ const app = express();
 
 // Improved CORS configuration
 app.use(cors({
-  origin: 'http://localhost:5173', // React app ka URL
+  origin: 'https://proj-taupe.vercel.app', // React app ka URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
